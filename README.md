@@ -11,17 +11,17 @@
 #### python3.10 -m venv .venv
 #### source .venv/bin/activate
 
-Open the command palette in VSCODE. Select the .venv as your python interpretor. 
+##### 3. Open the command palette in VSCODE. Select the .venv as your python interpretor. 
 #### FilePath: command palette > Python: Select Interpretor > .venv
 
-##### 3. Open a new bash in the terminal and run the following command to install all dependecies and libraries. Make sure you are in the .venv bash or this will not work. 
+##### 4. Open a new bash in the terminal and run the following command to install all dependecies and libraries. Make sure you are in the .venv bash or this will not work. 
 #### pip install -r requirements.txt
 
-##### 4. After verifying that everything has installed correctly run the following command in bash terminal to launch the local enviornment. You should see a Warning message that this is a development server, do not use it in production. This is because you need dockerized container images to run the app and serve on all devices. See section after this for more detials. The local enviornment should now be running on localhost http://127.0.0.1:5000
+##### 5. After verifying that everything has installed correctly run the following command in bash terminal to launch the local enviornment. You should see a Warning message that this is a development server, do not use it in production. This is because you need dockerized container images to run the app and serve on all devices. See section after this for more detials. The local enviornment should now be running on localhost http://127.0.0.1:5000
 
 #### flask run
 
-##### 5. After you verify this is working we can end the local enviornment anytime by pressing keys "control^ + c" 
+##### 6. After you verify this is working we can end the local enviornment anytime by pressing keys "control^ + c" 
 
 ## How to build dockerized container images
 
