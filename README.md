@@ -6,7 +6,12 @@
 
 ##### 1. You will need Python runtime version 3 or above installed on your laptop first. 
 
-##### 2. Open the command palette in VSCODE. Select the .venv as your python interpretor. 
+##### 2. In bash terminal enter the commands to create a virtual environment and activate it.
+
+#### python3.10 -m venv .venv
+#### source .venv/bin/activate
+
+Open the command palette in VSCODE. Select the .venv as your python interpretor. 
 #### FilePath: command palette > Python: Select Interpretor > .venv
 
 ##### 3. Open a new bash in the terminal and run the following command to install all dependecies and libraries. Make sure you are in the .venv bash or this will not work. 
